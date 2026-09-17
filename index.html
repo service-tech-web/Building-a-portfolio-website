@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=outfit@100,300,400,500,600,700&display=swap" rel="stylesheet">
+    <title>portfolio-website</title>
+
+  </head>
+  <body>
+    <header class="header container">
+      <a href="#" class="header__logo">SERVICE.</a>
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="header__link" href="#work">Work</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <a class="header__connect btn" href="mailto:sevvbezos@gmail.com">Reach Out</a>
+          </li>
+        </ul>
+        <button class="header__bars">
+          <svg
+           xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24"
+           fill="currentColor">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+    <!-- Mobile Navigation -->
+     <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#services">Services</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#work">Work</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <a class="mobile-nav__btn btn" href="mailto:sevvbezos@gmail.com">Reach Out</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </div>
+     <!-- End of Mobile Navigation -->
+    <main>
+      <section class="hero container section">
+        <div class="hero__left-content">
+          <p class="hero__subtitle">Hi, I'm Service 👋</p>
+          <p class="hero__title">
+            I do - <strong>UI UX</strong> design, <br> web developement & video editing.
+          </p>
+          <p class="hero__desc">
+            I'm a <strong>Multimedia Computing graduate</strong>
+            passionate about designing intuitive user interfaces and developing
+            responsive websites. I enjoy turning ideas into digital experiences
+            that are visually appealing and easy to use.
+          </p>
+          <a href="#" class="hero__btn btn">Get Resume</a>
+        </div>
+
+        <div class="hero__right-content">
+          <img class="hero__img" src="/hero.png" alt="Portrait of Service"/>
+        </div>
+      </section>
+      <section class="technologies container section">
+        <p class="technologies__title">✦ Quick Glance at <strong>Technologies</strong> ✦
+        </p>
+        <div class="technologies__grid">
+          <img src="/figma.png" alt="Figma">
+          <img src="/canva.png" alt="Canva">
+          <img src="/ai.png" alt="Illustrator">
+          <img src="/ps.png" alt="Photoshop">
+          <img src="/ae.png" alt="After Effects">
+          <img src="/html.png" alt="HTML">
+          <img src="/css.png" alt="CSS">
+          <img src="/js.png" alt="JavaScript">
+          <img src="/java.png" alt="java">
+          <img src="/c-sharp.png" alt="C#">
+          <img src="/blender.png" alt="Blender">
+          <img src="/unity.png" alt="Unity">  
+        </div>
+      </section>
+      <section id="about" class="about container section">
+        <p class="about__heading">✦ About Me ✦</p>
+
+        <div class="about__card">
+          <div class="about__top">
+            <p class="about__label">what i bring to the table</p>
+            <p class="about__status">
+              Status: <span class="status-dot"></span> Available
+            </p>
+          </div>
+
+          <div class="about__content">
+            <div class="about__photo">
+              <img src="/about.png" alt="Portrait of Service"/>
+            </div>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <span class="about__number">1</span>
+                <div class="about__item-text">
+                  <h3>design</h3>
+                  <p>i create clean and user-focused interfaces through wireframing, prototyping and visual design.</p>
+                </div>
+              </li>
+              <li class="about__item">
+                <span class="about__number">2</span>
+                <div class="about__item-text">
+                  <h3>develop</h3>
+                  <p>i turn designs into responsive websites using html, css and javascript.</p>
+                </div>
+              </li>
+              <li class="about__item">
+                <span class="about__number">3</span>
+                <div class="about__item-text">
+                  <h3>create</h3>
+                  <p>i use multimedia tools to create digital content, graphics, videos and interactive experiences.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="services container section">
+        <p class="services-heading">✦ Services <strong>I Provide</strong> ✦</p>
+        <div class="services__grid">
+          <article class="service-card">
+            <img class="service-card__icon" src="public/ui-ux.png" alt="" />
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive, user-friendly interfaces that provide seamless and enjoyable digital experiences</p>
+          </article>
+
+          <article class="service-card service-card--active">
+            <img class="service-card__icon" src="public/users.png" alt="" />
+            <h3>User Research</h3>
+            <p>Understanding user needs through research and feedback to create better design solutions.</p>
+          </article>
+
+          <article class="service-card">
+            <img class="service-card__icon" src="public/data.png" alt="" />
+            <h3>Data-Driven Projects</h3>
+            <p>Using research, analytics, and user insights to guide design decisions and improve user experiences.</p>
+          </article>
+
+          <article class="service-card">
+            <img class="service-card__icon" src="public/app.png" alt="" />
+            <h3>Application Design</h3>
+            <p>Designing clean and interactive mobile and web application interfaces focused on user needs.</p>
+          </article>
+
+          <article class="service-card">
+            <img class="service-card__icon" src="public/code.png" alt="" />
+            <h3>Web Development</h3>
+            <p>Building responsive, interactive websites using HTML, CSS, JavaScript, java, and modern web technologies.</p>
+          </article>
+
+          <article class="service-card">
+            <img class="service-card__icon" src="public/anim.png" alt="" />
+            <h3>3D Modelling and Animation</h3>
+            <p>Creating detailed 3D models and animations that combine creativity, visual appeal, and engaging experiences.</p>
+          </article>
+
+          <article class="service-card">
+            <img class="service-card__icon" src="public/video.png" alt="" />
+            <h3>Video Editing</h3>
+            <p>Editing engaging videos that combine visuals, sound, and storytelling to create clear and impactful content.</p>
+          </article>
+
+          <article class="service-card">
+            <img class="service-card__icon" src="public/web.png" alt="" />
+            <h3>Web Design</h3>
+            <p>Creating modern, responsive websites that combine visual appeal with functionality.</p>
+          </article>
+        </div>
+      </section>
+      <section id="work" class="work container section">
+        <p class="work__title">✦ Work ✦</p>
+        <div class="work__container">
+          <!--Project 1-->
+        <h3 class="work__project-title">Safe Space</h3>
+        <div class="work__image-wrapper work__image1">
+          <img class="lazy loading" src="https://placehold.co/900" data-src="/safe-space.png" alt="">
+        </div>
+        <div class="work__project work__content1">
+          <h3 class="work__project-subtitle">Safe Space</h3>
+          <p class="work__project-description1">
+          Designed and developed a secure reporting platform that enables students and staff to report incidents anonymously or with their identity.
+        </p>
+        <p class="work__project-description2">
+          Focused on creating an accessible, user-friendly experience while improving trust and safety through thoughtful UI/UX design.
+        </p>
+        <a class="btn work__project-button" href="/documents/safe-space.pdf" target="_blank">View Project</a>
+        </div>
+        
+        
+        <!--Project 2-->
+        <h3 class="work__project-title">FlowPay App</h3>
+        <div class="work__image-wrapper work__image2">
+          <img class="lazy loading" src="https://placehold.co/900" data-src="/fintech.png" alt="">
+        </div>
+        <div class="work__project work__content2">
+          <h3 class="work__project-subtitle">FlowPay App</h3>
+           <p class="work__project-description1">
+          Designed the UI/UX for a mobile finance app that lets users track balances, send and receive money, and manage multiple linked cards from one dashboard.
+        </p>
+        <p class="work__project-description2">
+          Focused on a clean, dark-themed visual style with clear hierarchy surfacing account balance, recent activity, and quick actions (Send/Receive) up front to make everyday banking tasks feel fast and effortless.
+        </p>
+        <a class="btn work__project-button" href="https://figma.fun/bmgdaj" target="_blank">View Project</a>
+        </div>
+        <!--Project 3-->
+        <h3 class="work__project-title">BathobelaCan Foundation</h3>
+        <div class="work__image-wrapper work__image3">
+          <img class="lazy loading" src="https://placehold.co/900" data-src="/batho.png" alt="">
+        </div>
+        <div class="work__project work__content3">
+          <h3 class="work__project-subtitle">BathobelaCan Foundation</h3>
+           <p class="work__project-description1">
+          Designed a responsive website prototype for BathobelaCan Foundation to promote its mission, connect with sponsors, and encourage donations through a clear and accessible user experience.
+        </p>
+        <p class="work__project-description2">
+          The platform highlights the organization s work in education, technology, and community development
+        </p>
+        <a class="btn work__project-button" href="/public/documents/bathobela-prototype.pdf" target="_blank">
+          View Project
+        </a>
+        </div>
+        <!--Project 4-->
+        <h3 class="work__project-title">Scoops & Sprinkles</h3>
+        <div class="work__image-wrapper work__image4">
+          <img class="lazy loading" src="https://placehold.co/900" data-src="/scoop.png" alt="">
+        </div>
+        <div class="work__project work__content4">
+          <h3 class="work__project-subtitle">Scoops & Sprinkles</h3>
+           <p class="work__project-description1">
+          Designed the UI/UX for an ice cream brand s website, crafting a warm, appetite-driven experience from the hero banner through flavour selection, brand story, and customer testimonials.
+        </p>
+        <p class="work__project-description2">
+          Focused on approachable visual design (soft pinks, bold reds, playful imagery) and intuitive navigation to build trust and make browsing flavours and ordering feel simple and inviting.
+        </p>
+        <a class="btn work__project-button" href="https://figma.fun/4706EL" target="_blank">
+          View Project
+        </a>
+        </div>
+        </div>
+      </section>
+      <section id="contact" class="contact container section">
+        <p class="contact__title">✦ Contact ✦</p>
+        <div class="contact__card">
+          <p class="contact__tagline">From Concept To Creation</p>
+          <p class="contact__subheading">
+            <span class="spark">✦</span> Let&rsquo;s Make It Happen <span class="spark">✦</span>
+          </p>
+
+          <div class="contact__grid">
+            <div class="contact__item">
+              <img class="contact__icon" src="/mail.png" alt="" />
+              <h3>Get In Touch</h3>
+              <p>Email Me: sevvbezos@gmail.com</p>
+              <a href="mailto:sevvbezos@gmail.com" class="btn">Send Email</a>
+            </div>
+
+            <div class="contact__item">
+              <img class="contact__icon" src="/job.png" alt="" />
+              <h3>Opportunity</h3>
+              <p>Have An Internship Opportunity? Let&rsquo;s Talk</p>
+              <a href="mailto:sevvbezos@gmail.com?subject=Internship%20Opportunity" class="btn">Contact Me</a>
+            </div>
+
+            <div class="contact__item">
+              <img class="contact__icon" src="/freela.png" alt="" />
+              <h3>Freelance</h3>
+              <p>Have A Project? Contact Me Now</p>
+              <a href="mailto:sevvbezos@gmail.com?subject=Freelance%20Project" class="btn">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer__title container section">~Service Nkanyani~</footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
