@@ -2,6 +2,7 @@
   display: grid;
   gap: var(--size-4xl);
   align-items: center;
+  margin-top: 5rem;
 }
 
 .hero__left-content {
